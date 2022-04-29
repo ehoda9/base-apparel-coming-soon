@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_leftcontainer">
+        <div class="left__side">
+          <img
+            class="left__side__logo device--logo"
+            src="./images/logo.svg"
+            alt="logo"
+          />
+          <h1 class="left__side__title">
+            <span id="special">We're</span><br />coming soon
+          </h1>
+          <p class="left__side__desc">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <div class="form" action="#">
+            <div class="form__input__group">
+              <label id="hidden" for="email">Email Address:</label>
+              <input
+                class="form__input__group__email"
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                id="email"
+              />
+              <button class="form__input__group__btn" type="submit">
+                <img src="./images/icon-arrow.svg" alt="arrow" />
+              </button>
+              <img
+                class="errormsg none"
+                src="./images/icon-error.svg"
+                alt="error"
+              />
+              <p class="error none"></p>
+              <p class="error error2 none big green"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right__side">
+        <img
+          class="left__side__logo mobile--logo"
+          src="./images/logo.svg"
+          alt="logo"
+        />
+        <img
+          class="right__side__img"
+          src="./images/hero-desktop.jpg"
+          alt="SoonPage"
+        />
+        <img
+          class="right__side__img__mobile"
+          src="./images/hero-mobile.jpg"
+          alt="SoonPage"
+        />
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

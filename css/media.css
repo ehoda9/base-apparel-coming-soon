@@ -1,0 +1,146 @@
+@media (max-width: 1200px) and (min-width: 768px) {
+  .right__side {
+    width: 100%;
+  }
+  .left__side {
+    padding: 1em 4em;
+  }
+}
+@media (max-width: 768px) {
+  .device--logo {
+    display: none;
+  }
+  .mobile--logo {
+    display: block;
+    padding: 2em;
+    width: 170px;
+    margin-bottom: 0;
+  }
+  .right__side {
+    width: 100%;
+    height: fit-content;
+  }
+  .right__side__img {
+    display: none;
+  }
+  .right__side__img__mobile {
+    display: block;
+    margin-bottom: 0;
+    height: 50vh;
+  }
+  .left__side {
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+  .form__input__group {
+    width: 300px;
+  }
+  .form__input__group__btn {
+    padding: 12px 10px;
+  }
+  .form__input__group__email {
+    padding: 15px 20px;
+  }
+  #special {
+    font-size: 3rem;
+  }
+  .left__side__title {
+    letter-spacing: 20px;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Red);
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.4em;
+  }
+  .left__side__desc {
+    font-weight: 400;
+    max-width: 490px;
+    line-height: 1.5;
+    color: var(--Desaturated-Red);
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 520px) {
+  .right__side {
+    margin-bottom: 2em;
+  }
+  #special {
+    font-size: 3rem;
+  }
+  .left__side__title {
+    font-size: 3rem;
+  }
+  .left__side__desc {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 330px) {
+  .right__side {
+    margin-bottom: 2em;
+  }
+  #special {
+    font-size: 2rem;
+  }
+  .left__side__title {
+    font-size: 2rem;
+  }
+  .left__side__desc {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 330px) {
+  .form__input__group {
+    width: 200px;
+  }
+  .form__input__group__btn img {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 280px) {
+  #special {
+    font-size: 1rem;
+  }
+  .left__side__title {
+    font-size: 1rem;
+  }
+  .left__side__desc {
+    font-size: 0.5rem;
+  }
+  .form__input__group {
+    width: fit-content;
+  }
+  .form__input__group__btn img {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media (max-width: 190px) {
+  #special {
+    font-size: 0.3rem;
+  }
+  .left__side__title {
+    font-size: 0.3rem;
+  }
+  .left__side__desc {
+    font-size: 0.2rem;
+  }
+  .form__input__group {
+    width: fit-content;
+  }
+  .form__input__group__btn img {
+    width: 10px;
+    height: 10px;
+  }
+}
