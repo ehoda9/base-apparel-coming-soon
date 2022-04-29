@@ -31,6 +31,7 @@ submitBtn.addEventListener("click", () => {
         inputEmail.classList.remove("red");
         errorIcon.classList.add("none");
       }
+      submitBtn.classList.add("none");
       inputEmail.classList.add("green");
       errorMsg.classList.remove("none");
       errorMsg.classList.add("green");
@@ -38,7 +39,6 @@ submitBtn.addEventListener("click", () => {
       if ((errorMsg.innerHTML = "Subscribe success.")) {
         setTimeout(() => {
           inputEmail.classList.add("none");
-          submitBtn.classList.add("none");
           errorMsg.classList.remove("green");
           errorMsg.classList.add("big");
           errorMsg2.classList.remove("none");
